@@ -236,3 +236,42 @@ div {
     margin-top: 28px;
   }
 }
+
+
+.roadmap-article {
+  max-width: 980px;
+}
+
+.roadmap-article > p,
+.roadmap-article > h2,
+.roadmap-article > ul {
+  width: min(100%, 760px);
+}
+
+.roadmap-article .article-lead {
+  margin-top: -1rem;
+  color: var(--muted);
+  font-size: clamp(1.2rem, 2.3vw, 1.7rem);
+  line-height: 1.3;
+}
+
+.roadmap-article .article-byline {
+  margin: 1.5rem 0 2.5rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.roadmap-article ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.4rem;
+}
+
+.roadmap-article li {
+  margin-bottom: 0.55rem;
+}
+
+.roadmap-article img {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fff;
+}
